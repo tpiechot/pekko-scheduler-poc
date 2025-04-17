@@ -1,10 +1,10 @@
 
 
-java:S1450)"ZRemove the "ipAddresses" field and declare it as a local variable in the relevant methods.(‘††8˜Ê—ä2J$0e23bd5c-7204-4714-a135-136a85a1a8d8
-m	java:S1066"+Replace this use of System.out by a logger.(—¥•8«Ê—ä2J$08d70dc9-cfba-4c4d-8423-9184b2d9a582
-m	java:S106?"+Replace this use of System.out by a logger.(†ƒ˜½8±Ê—ä2J$7c900457-95d8-477d-a403-a7659c43f884
-m	java:S106H"+Replace this use of System.out by a logger.(ş¾öä8·Ê—ä2J$8ba53eee-70c8-4842-b8a5-df18f0aac425
-r	java:S106^"+Replace this use of System.out by a logger.(ò‹‰…ÿÿÿÿÿ8ÂÊ—ä2J$93ddfcd8-cc28-41a3-889d-20e53bde921e
-m	java:S106b"+Replace this use of System.out by a logger.(ğ•¥¨8ÄÊ—ä2J$36a8e031-7389-40e5-8f23-0458b6a06b6c
-m	java:S106c"+Replace this use of System.out by a logger.(ëïƒ8ÄÊ—ä2J$a34499a0-8500-479e-b542-d286e43991b8
-m	java:S106g"+Replace this use of System.out by a logger.(ëïƒ8ÈÊ—ä2J$b09645d5-4a8e-41c9-a12b-38528e4e43a8
+java:S1450)"ZRemove the "ipAddresses" field and declare it as a local variable in the relevant methods.(‘††8¦Û™—ä2J$b7d5811e-8a2b-4f32-86a5-8f3a304940e2
+m	java:S1066"+Replace this use of System.out by a logger.(—¥•8µÛ™—ä2J$8943b371-574d-497d-9375-49e20b966893
+m	java:S106?"+Replace this use of System.out by a logger.(†ƒ˜½8ÃÛ™—ä2J$4f3b0aaf-fbb0-494c-bc3d-c07eb311e93f
+m	java:S106H"+Replace this use of System.out by a logger.(ş¾öä8ÎÛ™—ä2J$4a4f14cf-fc51-4455-b0af-42a1ff2852a0
+r	java:S106^"+Replace this use of System.out by a logger.(ò‹‰…ÿÿÿÿÿ8ĞÛ™—ä2J$e1e9f99f-011d-4dbe-b844-9d85161367cd
+m	java:S106b"+Replace this use of System.out by a logger.(ğ•¥¨8ÑÛ™—ä2J$b5d37da7-44e8-4460-ab42-80def0ec9808
+m	java:S106c"+Replace this use of System.out by a logger.(ëïƒ8ÑÛ™—ä2J$e5ef3a29-39d4-4593-9dda-145983bd27e4
+G	java:S106g"+Replace this use of System.out by a logger.(ëïƒ8Ğòš—ä2
