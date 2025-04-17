@@ -1,0 +1,24 @@
+
+‚
+java:S1488A"`Immediately return this expression instead of assigning it to the temporary variable "response".(™Ô“ÿÿÿÿÿ8¿¤ìã2
+f
+java:S2259A"DA "NullPointerException" could be thrown; "block()" can return null.(™Ô“ÿÿÿÿÿ8ø¤ìã2
+r
+java:S3655A"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(™Ô“ÿÿÿÿÿ8ù¤ìã2
+g
+java:S1854/"ERemove this useless assignment to local variable "responsePublisher".(ñ®Ûºûÿÿÿÿ8Š‘¤ìã2
+
+java:S1130,"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(³ÑÍ¾ÿÿÿÿÿ8Œ‘¤ìã2
+™
+java:S1130,"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(³ÑÍ¾ÿÿÿÿÿ8‘¤ìã2
+]	java:S125-"<This block of commented-out lines of code should be removed.(¸‹ßÍøÿÿÿÿ8‘¤ìã2
+X
+java:S1481/"6Remove this unused "responsePublisher" local variable.(ñ®Ûºûÿÿÿÿ8’‘¤ìã2
+L	java:S1066"+Replace this use of System.out by a logger.(Şƒîüÿÿÿÿ8“‘¤ìã2
+X	java:S1251"<This block of commented-out lines of code should be removed.(šÖ›˜8”‘¤ìã2
+X	java:S1257"<This block of commented-out lines of code should be removed.(¹¸¹¸8—‘¤ìã2
+X	java:S125G"<This block of commented-out lines of code should be removed.(¯¡¸´8‘¤ìã2
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8¡‘¤ìã2
+^
+java:S1128"ARemove this unused import 'io.micronaut.core.annotation.NonNull'.(§ôèÁ8¡‘¤ìã2

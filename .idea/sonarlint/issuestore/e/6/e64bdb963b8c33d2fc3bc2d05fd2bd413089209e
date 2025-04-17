@@ -1,0 +1,14 @@
+
+
+java:S1450)"ZRemove the "ipAddresses" field and declare it as a local variable in the relevant methods.(‘††8ÒšÂõá2J$56491791-c222-45b9-a81b-89cd7ffe502e
+~
+java:S16121";Replace this lambda with method reference 'MainActor::new'.(İÆş8ášÂõá2J$fd9cd42a-5347-4cd4-82bb-abaa7f1ac424
+m	java:S1066"+Replace this use of System.out by a logger.(—¥•8äšÂõá2J$e58b4737-63c3-4b72-a8b7-afdda0e7d838
+m	java:S106?"+Replace this use of System.out by a logger.(†ƒ˜½8æšÂõá2J$bd8dc1ad-503d-4a26-8be7-e09052bd019e
+m	java:S106H"+Replace this use of System.out by a logger.(ş¾öä8éšÂõá2J$a6d9c3f6-9c8b-4e3a-b084-f36e92385947
+r	java:S106W"+Replace this use of System.out by a logger.(„×Ç¬ûÿÿÿÿ8íšÂõá2J$96195732-9f5f-4ed5-914e-04c703bceefe
+r	java:S106\"+Replace this use of System.out by a logger.(ò‹‰…ÿÿÿÿÿ8îšÂõá2J$dfc4d7f4-82e2-493d-b8f2-2d454073cd6b
+m	java:S106`"+Replace this use of System.out by a logger.(ğ•¥¨8ïšÂõá2J$0314eef3-6e5d-40aa-a3af-25cad2446bdd
+r	java:S106c"+Replace this use of System.out by a logger.(„×Ç¬ûÿÿÿÿ8ÀŸÅõá2J$3a9463e7-93d0-40c7-a052-8de6b2318d30
+‡
+java:S1128"DRemove this unused import 'org.apache.pekko.japi.function.Function'.(ŒÖñÆ8şæÂõá2J$01386a35-2aae-46d8-be25-03eaa5117c9b
