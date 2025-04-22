@@ -1,8 +1,11 @@
 package com.cisco.connector.actor;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 import org.apache.pekko.actor.typed.ActorRef;
 import org.apache.pekko.actor.typed.Behavior;
@@ -24,7 +27,7 @@ public class MainDiscoveryActor extends AbstractBehavior<Command> {
 
     private int totalDevices;
     private int receivedResponses;
-    private List<DiscoveredDeviceMessage> discoveredDevices = new ArrayList<>();
+    private Set<DiscoveredDeviceMessage> discoveredDevices = new HashSet<>();
 
     public static class Trigger implements Command {
         private final String message;
@@ -79,7 +82,9 @@ public class MainDiscoveryActor extends AbstractBehavior<Command> {
         this.ipAddresses = message.getSeedfile().getIpAddresses();
         this.totalDevices = ipAddresses.size();
 
+        System.out.println("Validation completed successfully. IP addresses: " + ipAddresses);
         for (String ipAddress : ipAddresses) {
+            System.out.println("Starting discovery for IP address: " + ipAddress);
             // Create a new DiscoveryActor for each IP address
             Behavior<Command> behavior = DiscoveryActor.create(getContext().getSelf());
             Behaviors.supervise(behavior)
@@ -90,17 +95,16 @@ public class MainDiscoveryActor extends AbstractBehavior<Command> {
         return this;
     }
 
-    private Behavior<Command> onDiscoveryCompleted(DiscoveredDeviceMessage message) throws InterruptedException {
+    private Behavior<Command> onDiscoveryCompleted(DiscoveredDeviceMessage message) {
         System.out.println("Received DiscoveredDeviceMessage: " + message.getIpAddress());
         discoveredDevices.add(message);
         receivedResponses++;
         if (receivedResponses == totalDevices) {
-            System.out.println("All devices discovered: " + discoveredDevices);
-            System.out.println("Tree: " + getContext().getSystem().printTree());
-            Thread.sleep(5000);
-            return Behaviors.stopped();
+            System.out.println("All devices discovered at: " + LocalDateTime.now() + ", list of devices: " + discoveredDevices);
+            discoveredDevices.clear();
+            receivedResponses = 0;
+            return Behaviors.same();
         }
-        System.out.println("Tree: " + getContext().getSystem().printTree());
         return this;
     }
 }

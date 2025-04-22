@@ -1,9 +1,0 @@
-
-r	java:S106&"+Replace this use of System.out by a logger.(¼Ä·›üÿÿÿÿ8Ñ£¹˜ã2J$b4c18ed7-6c6d-40f9-b2db-0d64d85eaf2c
-m	java:S106("+Replace this use of System.out by a logger.(ˆÀïó8Ò£¹˜ã2J$2aa082b5-8752-400f-a9a5-ad37c788f3ba
-r	java:S106."+Replace this use of System.out by a logger.(¬íê¢ûÿÿÿÿ8Õ£¹˜ã2J$1068ae69-7739-4791-bd00-79768c3f63ed
-m	java:S1060"+Replace this use of System.out by a logger.(óˆÕŽ8Õ£¹˜ã2J$94411539-c76a-4fb5-9b82-85ba52ccfed8
-x
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8×£¹˜ã2J$7df3b1fe-3194-4823-98e1-13ba2316d0d3
-†
-java:S1128"CRemove this unused import 'java.util.concurrent.CompletableFuture'.(ôÞä´8×£¹˜ã2J$a5bcffc3-4894-4286-a72c-3b11c52eb8e6
